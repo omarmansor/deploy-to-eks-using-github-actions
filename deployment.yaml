@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: my-node-app
-          image: omarmansor/my-node-app:1.1
+          image: omarmansor/my-node-app
           imagePullPolicy: Always
           ports:
             - containerPort: 8080
